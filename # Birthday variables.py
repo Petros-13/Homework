@@ -17,6 +17,3 @@ elif person == "Philip":
     print("Philip's birthday is", Philip)
 elif person == "David":
     print("David's birthday is", David)
-else:
-    print("Person not found.")
-
