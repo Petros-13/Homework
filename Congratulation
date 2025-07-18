@@ -1,0 +1,2 @@
+name=Congradulate
+print("Hello freind i",name,.upper()"you")
