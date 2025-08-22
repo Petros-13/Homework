@@ -1,0 +1,10 @@
+def shutdown(user_input):
+    if user_input.lower() == "yes":
+        print("Shutting down...")
+    elif user_input.lower() == "no":
+        print("Abort shut down.")
+    else:
+        print("Sorry.")
+
+user_response = input("Do you want to shutdown the system? (Yes/No): ")
+shutdown(user_response)
