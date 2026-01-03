@@ -1,0 +1,11 @@
+def take_input():
+    num = int(input("Enter a number: "))
+    
+
+    if num < 0:
+        print("Negative number entered. Stopping recursion.")
+        return
+    
+    take_input()
+
+take_input()
